@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/styles.css">
+    <title></title>
+  </head>
+  <body>
+
+<!-- CONTAINER -->
+    <div class="container d-flex flex-wrap justify-content-center">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark row w-100">
+
+      <a class="navbar-brand display-1 font-weight-bold" href="#">NOMBRE</a>
+      <button class="navbar-toggler btn-menu font-weight-bold text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-white font-weight-bold"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav d-flex justify-content-end  ml-5">
+          <li class="nav-item">
+            <a class="n-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="n-link" href="#" data-toggle="modal" data-target="#register-modal">Registrate</a>
+          </li>
+          <li class="nav-item">
+            <a class="n-link" href="#" data-toggle="modal" data-target="#login-modal">Ingresa</a>
+          </li>
+          <li class="nav-item">
+            <a class="n-link" href="#">Preguntas Frecuentes</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+    <!--/navbar  -->
+
+<!-- FAQ -->
+<div class="panel-group" id="faqAccordion">
+    <div class="panel panel-default ">
+        <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0">
+             <h4 class="panel-title">
+                <a href="#" class="ing">Q: What is Lorem Ipsum?</a>
+          </h4>
+
+        </div>
+        <div id="question0" class="panel-collapse collapse" style="height: 0px;">
+            <div class="panel-body">
+                 <h5><span class="label label-primary">Answer</span></h5>
+
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five <a href="http://jquery2dotnet.com/" class="label label-success">http://jquery2dotnet.com/</a> centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default ">
+        <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">
+             <h4 class="panel-title">
+                <a href="#" class="ing">Q: Why do we use it?</a>
+          </h4>
+
+        </div>
+        <div id="question1" class="panel-collapse collapse" style="height: 0px;">
+            <div class="panel-body">
+                 <h5><span class="label label-primary">Answer</span></h5>
+
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default ">
+        <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
+             <h4 class="panel-title">
+                <a href="#" class="ing">Q: Where does it come from?</a>
+          </h4>
+
+        </div>
+        <div id="question2" class="panel-collapse collapse" style="height: 0px;">
+            <div class="panel-body">
+                 <h5><span class="label label-primary">Answer</span></h5>
+
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default ">
+        <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3">
+             <h4 class="panel-title">
+                <a href="#" class="ing">Q: Where can I get some?</a>
+          </h4>
+
+        </div>
+        <div id="question3" class="panel-collapse collapse" style="height: 0px;">
+            <div class="panel-body">
+                 <h5><span class="label label-primary">Answer</span></h5>
+
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--/panel-group-->
+
+
+    <div class="opciones col-12 d-flex justify-content-around ">
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register-modal">Registrate</button>
+      <button type="button" class="btn btn-secondary btn-lg">Conocé más</button>
+    </div>
+  </div>
+
+  </div>
+  <!-- /CONTAINER -->
+
+<!-- FOOTER -->
+    <footer class="main-footer">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Registrarse</a></li>
+        <li><a href="#">Ingresar</a></li>
+        <li><a href="#">Preguntas Frecuentes</a></li>
+      </ul>
+    </footer>
+<!-- /FOOTER -->
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap-JS -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
