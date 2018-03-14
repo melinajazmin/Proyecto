@@ -13,32 +13,36 @@ ul, ol{
 a{
 	text-decoration: none;
 	display: inline-block;
+	color: white;
 }
 
 body{
-    max-width: 1200px;
+    max-width: 2000px;
     margin: 0;
     padding: 0;
-    background-color: rgb(97, 99, 99);
     font-size: 10px;
 }
 
-img{
-  width: 100%;
+.card-img-top{
+width: 100%;
+display: flex;
 }
-.nav{
-  padding: 15px;
+
+.card-text{
+	font-size: 1.5em;
 }
+
 .container{
   padding: 0;
   margin: 0;
+	max-width: 2000px;
 	width: 100%;
 
 }
 
 .navbar{
 	width: 100%;
-  background-color:  #2C3E50;
+  background-color:  #8b7e80;
 }
 .btn-menu{
   margin-left: 15px;
@@ -67,12 +71,50 @@ img{
 padding: 50px 20px 30px 20px;
 }
 
-footer{
-  font-size: 1.5em;
-  padding: 0;
-}
 .modal .form-control{
 	margin-bottom: 15px;
 	border:none;
 	border-bottom: 1px solid #8b7e80;
+}
+.btn-primary{
+	background-color: rgb(117, 205, 187);
+	color: white;
+	border: 1px solid rgb(117, 205, 187);
+}
+
+.btn-secondary{
+	border: 1px solid #8b7e80;
+	background-color: #8b7e80;
+}
+
+.icono{
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  color: white;
+  background-color: rgb(117, 205, 187);
+  font-size:1.6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+.main-footer{
+	background-color: #8b7e80;
+	border-radius: 15px 15px 0 0;
+	margin-top: 40px;
+	font-size: 1.5em;
+  padding: 0;
+}
+
+.main-footer a{
+	display: block;
+	font-size: 1.5em;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border-bottom: solid 1px white;
 }
