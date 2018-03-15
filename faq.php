@@ -1,44 +1,15 @@
+<?php
+  require_once("partials/navigation.php");
+  $current="faq.php";
+?>
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta charset="utf-8">
-   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-   <link rel="stylesheet" href="css/bootstrap.min.css">
-   <link rel="stylesheet" href="css/styles.css">
-    <title></title>
-  </head>
+  <?php require_once("./partials/head.php"); ?>
   <body>
 
 <!-- CONTAINER -->
     <div class="container d-flex flex-wrap justify-content-center">
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark row w-100">
-
-      <a class="navbar-brand display-1 font-weight-bold" href="#">NOMBRE</a>
-      <button class="navbar-toggler btn-menu font-weight-bold text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon text-white font-weight-bold"></span>
-      </button>
-
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav d-flex justify-content-end  ml-5">
-          <li class="nav-item">
-            <a class="n-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="n-link" href="#" data-toggle="modal" data-target="#register-modal">Registrate</a>
-          </li>
-          <li class="nav-item">
-            <a class="n-link" href="#" data-toggle="modal" data-target="#login-modal">Ingresa</a>
-          </li>
-          <li class="nav-item">
-            <a class="n-link" href="#">Preguntas Frecuentes</a>
-          </li>
-        </ul>
-
-      </div>
-    </nav>
-    <!--/navbar  -->
+  <?php require_once("./partials/navbar.php"); ?>
 
 <!-- FAQ -->
 <div class="panel-group" id="faqAccordion">
@@ -50,7 +21,7 @@
 
         </div>
         <div id="question0" class="panel-collapse collapse" style="height: 0px;">
-            <div class="panel-body">
+            <div class="panel-body">"
                  <h5><span class="label label-primary">Answer</span></h5>
 
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five <a href="http://jquery2dotnet.com/" class="label label-success">http://jquery2dotnet.com/</a> centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -117,19 +88,8 @@
   </div>
   <!-- /CONTAINER -->
 
-<!-- FOOTER -->
-    <footer class="main-footer">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Registrarse</a></li>
-        <li><a href="#">Ingresar</a></li>
-        <li><a href="#">Preguntas Frecuentes</a></li>
-      </ul>
-    </footer>
-<!-- /FOOTER -->
+  <?php require_once("./partials/footer.php"); ?>
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <!-- Bootstrap-JS -->
-    <script src="js/bootstrap.min.js"></script>
+  <?php require_once("./partials/script-imports.php"); ?>
   </body>
 </html>
