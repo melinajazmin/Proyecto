@@ -20,16 +20,16 @@
           </div>
           <div class="form-group d-flex justify-content-center">
               <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                <label class="btn btn-danger active mr-3" >
+                <label class="btn btn-primary" >
                   <input type="radio" name="options" id="dj" autocomplete="off" checked=""> Soy DJ!
                 </label>
-                <label class="btn btn-primary">
+                <label class="btn btn-secondary">
                   <input type="radio" name="options" id="organizador" autocomplete="off"> Busco DJ's!
                 </label>
               </div>
             </div>
             <div class="form-group d-flex justify-content-center">
-              <button type="submit"class="btn btn-outline-success btn-lg mb-3" name="submt">CREA TU CUENTA!</button>
+              <button type="submit"class="btn btn-primary btn-lg mb-3" name="submt">CREA TU CUENTA!</button>
             </div>
             <div class="modal-footer">
                 <span>ya tienes cuenta?  -</span><button type="button" name="login"class="btn btn-link btn-small" data-dismiss="modal" data-toggle="modal" data-target="#login-modal">Ingresa</button>
@@ -50,8 +50,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">form-group
-
+      <div class="modal-body">
         <form class="" action="index.html" method="post">
 
           <div class="form-group">
@@ -59,7 +58,7 @@
             <input class="form-control form-control-lg" type="password" placeholder="PASSWORD">
           </div>
             <div class="form-group d-flex justify-content-center">
-              <button type="submit"class="btn btn-outline-success btn-lg mb-3" name="submt" data-toggle="modal" data-target="#login-modal">INGRESA</button>
+              <button type="submit"class="btn btn-primary btn-lg mb-3" name="submt" data-toggle="modal" data-target="#login-modal">INGRESA</button>
             </div>
 
             <div class="modal-footer">

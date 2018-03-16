@@ -34,7 +34,7 @@ display: flex;
 
 .container{
   padding: 0;
-  margin: 0;
+  margin: auto;
 	max-width: 2000px;
 	width: 100%;
 
@@ -87,6 +87,11 @@ padding: 50px 20px 30px 20px;
 	background-color: #8b7e80;
 }
 
+.btn-outline-success{
+	background-color: rgb(117, 205, 187);
+	color: white;
+	border: 1px solid rgb(117, 205, 187);
+}
 .icono{
   width: 40px;
   height: 40px;
@@ -108,6 +113,7 @@ padding: 50px 20px 30px 20px;
 	margin-top: 40px;
 	font-size: 1.5em;
   padding: 0;
+	width: 100%;
 }
 
 .main-footer a{
