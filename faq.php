@@ -11,72 +11,52 @@
     <div class="container d-flex flex-wrap justify-content-center">
   <?php require_once("./partials/navbar.php"); ?>
 
-<!-- FAQ -->
-<div class="panel-group" id="faqAccordion">
-    <div class="panel panel-default ">
-        <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0">
-             <h4 class="panel-title">
-                <a href="#" class="ing">Q: What is Lorem Ipsum?</a>
-          </h4>
 
-        </div>
-        <div id="question0" class="panel-collapse collapse" style="height: 0px;">
-            <div class="panel-body">"
-                 <h5><span class="label label-primary">Answer</span></h5>
-
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five <a href="http://jquery2dotnet.com/" class="label label-success">http://jquery2dotnet.com/</a> centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p>
-            </div>
-        </div>
-    </div>
-    <div class="panel panel-default ">
-        <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">
-             <h4 class="panel-title">
-                <a href="#" class="ing">Q: Why do we use it?</a>
-          </h4>
-
-        </div>
-        <div id="question1" class="panel-collapse collapse" style="height: 0px;">
-            <div class="panel-body">
-                 <h5><span class="label label-primary">Answer</span></h5>
-
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-            </div>
-        </div>
-    </div>
-    <div class="panel panel-default ">
-        <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
-             <h4 class="panel-title">
-                <a href="#" class="ing">Q: Where does it come from?</a>
-          </h4>
-
-        </div>
-        <div id="question2" class="panel-collapse collapse" style="height: 0px;">
-            <div class="panel-body">
-                 <h5><span class="label label-primary">Answer</span></h5>
-
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-            </div>
-        </div>
-    </div>
-    <div class="panel panel-default ">
-        <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3">
-             <h4 class="panel-title">
-                <a href="#" class="ing">Q: Where can I get some?</a>
-          </h4>
-
-        </div>
-        <div id="question3" class="panel-collapse collapse" style="height: 0px;">
-            <div class="panel-body">
-                 <h5><span class="label label-primary">Answer</span></h5>
-
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-            </div>
-        </div>
+<div id="accordion" class="col-xl-6 mb-5">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed faq-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          ¿Qué es Eventr?
+        </button>
+      </h5>
     </div>
 
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+      Eventr es una plataforma que permite tanto a DJ's como a organizadores de eventos encontrarse para generar shows increíbles.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed faq-btn" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Soy DJ ¿Qué me brinda la plataforma?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Los DJ tendrán la posibilidad de crearse un perfil con todos sus datos, incluyendo las redes sociales con sus sets, fotos y experiencias. Así mismo tendrán un calendario donde podrán poner su disponibilidad para tocar.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed faq-btn" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            ¿Y si soy organizador?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        Los organizadores de eventos, nuestros principales clientes, tendrán la posibilidad de buscar DJ's por nombre, género o disponibilidad de fecha.
+      </div>
+    </div>
+  </div>
 </div>
-<!--/panel-group-->
 
 
     <div class="opciones col-12 d-flex justify-content-around ">
