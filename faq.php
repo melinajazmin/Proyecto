@@ -59,7 +59,7 @@
 </div>
 
 
-    <div class="opciones col-12 d-flex justify-content-around ">
+    <div class="opciones col-12 d-flex justify-content-around mb-5 ">
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register-modal">Registrate</button>
       <button type="button" class="btn btn-secondary btn-lg">Conocé más</button>
     </div>

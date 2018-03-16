@@ -3,7 +3,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="register-modalLabel">Crea tu cuenta en AGNT</h5>
+        <h5 class="modal-title" id="register-modalLabel">Crea tu cuenta en EventR</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -62,7 +62,7 @@
             </div>
 
             <div class="modal-footer">
-                <span>aun no sos parte de AGNT? -</span><button type="button" name="register"class="btn btn-link btn-sm" data-dismiss="modal" data-toggle="modal" data-target="#register-modal">Unite!</button>
+                <span>aun no sos parte de EventR? -</span><button type="button" name="register"class="btn btn-link btn-sm" data-dismiss="modal" data-toggle="modal" data-target="#register-modal">Unite!</button>
             </div>
         </form>
       </div>
