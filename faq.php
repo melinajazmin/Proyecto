@@ -2,7 +2,7 @@
   require_once("partials/navigation.php");
   $current="faq.php";
   $faq = [
-    '¿Qué es Eventr?' => 'Eventr es una plataforma que permite tanto a DJ\'s como a organizadores de eventos encontrarse para generar shows increíbles.', 
+    '¿Qué es Eventr?' => 'Eventr es una plataforma que permite tanto a DJ\'s como a organizadores de eventos encontrarse para generar shows increíbles.',
     'Soy DJ ¿Qué me brinda la plataforma?' => 'Los DJ tendrán la posibilidad de crearse un perfil con todos sus datos, incluyendo las redes sociales con sus sets, fotos y experiencias. Así mismo tendrán un calendario donde podrán poner su disponibilidad para tocar.',
     '¿Y si soy organizador?' => 'Los organizadores de eventos, nuestros principales clientes, tendrán la posibilidad de buscar DJ\'s por nombre, género o disponibilidad de fecha.',
     '¿Cuáles son los medios de pago?' => 'Trabajamos con VISA, MasterCard y MercagoPago',
@@ -15,19 +15,19 @@
 ?>
 <!DOCTYPE html>
 <html>
-  <?php require_once("./partials/head.php"); ?>
+  <?php require_once("partials/head.php"); ?>
   <body>
 
 <!-- CONTAINER -->
     <div class="container d-flex flex-wrap justify-content-center">
-      <?php require_once("./partials/navbar.php"); ?>
+      <?php require_once("partials/navbar.php"); ?>
 
 <!-- Con el ForEach se recorre el array $FAQ multidimencional que contiene como Key las preguntas y como Value las respuesta. Se incluye la variable Index (inicializada al comienzo del archivo) para usar de contador en las clases e IDs de cada card para el funcionamiento correcto del collaps -->
 <div id="accordion" class="col-xl-6 mb-5">
     <?php foreach ($faq as $pregunta => $respuesta) : ?>
     <?php $index++ ?>
       <div class="card">
-        <div class="card-header" id="heading<?=$index?>">
+        <div class="card-header d-flex flex-wrap" id="heading<?=$index?>">
           <h5 class="mb-0">
             <button class="btn btn-link collapsed faq-btn" data-toggle="collapse" data-target="#collapse<?=$index?>" aria-expanded="false" aria-controls="collapse<?=$index?>">
               <?=$pregunta?>
@@ -52,8 +52,8 @@
   </div>
   <!-- /CONTAINER -->
 
-  <?php require_once("./partials/footer.php"); ?>
+  <?php require_once("partials/footer.php"); ?>
 
-  <?php require_once("./partials/script-imports.php"); ?>
+  <?php require_once("partials/script-imports.php"); ?>
   </body>
 </html>

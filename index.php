@@ -9,16 +9,15 @@
   <?php require_once("partials/head.php"); ?>
 
   <body>
-    <?php require_once("partials/modales.php"); ?>
 
-    <div class="container d-flex flex-wrap justify-content-center">
+    <div class="container d-flex flex-wrap big-c">
       <?php require_once("partials/navbar.php"); ?>
 
 
   <!-- JUMBOTRON INFO DE LA WEB -->
   <div class="jumbotron jumbotron-fluid row">
       <h1 class="display-3 col-12">NOMBRE</h1>
-      <p class="lead col-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      <p class="lead col-12">Lorem ipsum eventdolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
     <div class="opciones col-12 d-flex justify-content-around ">

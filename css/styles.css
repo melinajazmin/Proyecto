@@ -133,4 +133,7 @@ padding: 50px 20px 30px 20px;
 
 .faq-btn{
 	font-size: 1.5rem;
+	/* la propiedad white-space:normal hace que el texto del boton se auto ajuste. si es muy largo queda en 2 lineas*/
+	white-space: normal;
+
 }

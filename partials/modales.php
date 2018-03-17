@@ -29,7 +29,7 @@
               </div>
             </div>
             <div class="form-group d-flex justify-content-center">
-              <button type="submit"class="btn btn-primary btn-lg mb-3" name="submt">CREA TU CUENTA!</button>
+              <button type="submit"class="btn btn-primary btn-lg " name="submt">CREA TU CUENTA!</button>
             </div>
             <div class="modal-footer">
                 <span>ya tienes cuenta?  -</span><button type="button" name="login"class="btn btn-link btn-small" data-dismiss="modal" data-toggle="modal" data-target="#login-modal">Ingresa</button>

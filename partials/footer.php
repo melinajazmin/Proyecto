@@ -21,10 +21,10 @@
 
       <footer class="main-footer">
         <ul>
-          <?php foreach ($navigation as $url => $nombre) {
-          echo "<li><a href=\"$url\">$nombre</a></li>";
-          }  ?>
-          <li><a href=""  data-toggle="modal" data-target="#login-modal">Login</a></li>
-          <li><a href="" data-toggle="modal" data-target="#register-modal">Registrate</a></li>
+          <?php foreach ($navigation as $url => $nombre) : ?>
+            <li><a href="<?= $url==$current ? "" : $url ?>"> <?=$nombre?> </a></li>
+          <?php  endforeach;  ?>
+          <!-- <li><a href=""  data-toggle="modal" data-target="#login-modal">Login</a></li>
+          <li><a href="" data-toggle="modal" data-target="#register-modal">Registrate</a></li> -->
         </ul>
       </footer>
