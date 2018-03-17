@@ -1,5 +1,5 @@
 <!-- redes sociales -->
-<div class="d-flex flex-wrap col-12 justify-content-around">
+<div class="d-flex flex-wrap col-12  justify-content-around">
     <div class="icono">
       <a href="#"><span class="ion-social-facebook "></span></a>
     </div>
