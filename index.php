@@ -17,8 +17,7 @@
   <!-- JUMBOTRON INFO DE LA WEB -->
   <div class="jumbotron jumbotron-fluid row">
       <h1 class="display-3 col-12">Eventr</h1>
-      <p class="lead col-12">Lorem ipsum eventdolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="lead col-12">Es una plataforma que permite tanto a DJ's como a organizadores de eventos encontrarse para generar shows increíbles. Los DJ tendrán la posibilidad de crearse un perfil con todos sus datos, incluyendo las redes sociales con sus sets, fotos y experiencias. Así mismo tendrán un calendario donde podrán poner su disponibilidad para tocar. Los organizadores de eventos, nuestros principales clientes, tendrán la posibilidad de buscar DJ's por nombre, género o disponibilidad de fecha.</p>
 
     <div class="opciones col-12 d-flex justify-content-around ">
       <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register-modal">Registrate</button>
@@ -33,7 +32,7 @@
         <div class="card-body">
           <h4 class="card-title">HOT SINCE '82</h4>
           <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe
+            El dj y productor británico Daley Padley aka Hot Since 82 despegó artísticamente en el 2011, manufacturando música house de primer nivel ya sea en Ibiza, lugar donde fue descubierto, o en los mejores festivales electrónicos del mundo como Creamfields o WMC.
           </p>
           <a href="#!" class="btn">ver mas</a>
         </div>
@@ -43,7 +42,7 @@
         <div class="card-body">
           <h4 class="card-title">NICK CURLY</h4>
           <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe
+            Desde su memorable estrellato en el 2008, Nick Curly se ha establecido así mismo como uno de los actos internacionales con más presencia de la era moderna de la música house.
           </p>
           <a href="#!" class="btn">ver mas</a>
         </div>
@@ -53,7 +52,7 @@
         <div class="card-body">
           <h4 class="card-title">JOHN DIGWEED</h4>
           <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe
+            Es un disc jockey y productor musical. Comenzó a hacer mezclas alrededor de los 13 años de edad. Su primer trabajo formal como DJ fue en el club Renaissance en Londres después de que Alexander Coe, alias Sasha, escuchara su demo y lo aprobara.
           </p>
           <a href="#!" class="btn">ver mas</a>
         </div>
