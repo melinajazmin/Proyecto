@@ -29,6 +29,10 @@ display: flex;
 }
 
 .card-text{
+	font-size: 0.8em;
+}
+
+.card-title{
 	font-size: 1.5em;
 }
 
