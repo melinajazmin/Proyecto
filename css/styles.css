@@ -141,3 +141,15 @@ padding: 50px 20px 30px 20px;
 	white-space: normal;
 
 }
+
+/* QUIENES SOMOS */
+
+.grisado{
+	color: #AAA;
+}
+
+.card{
+	border: none;
+	margin: 0 auto;
+	padding-top: 0px;
+};

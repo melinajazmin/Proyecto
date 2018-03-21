@@ -5,5 +5,5 @@
  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
  <link rel="stylesheet" href="css/bootstrap.min.css">
  <link rel="stylesheet" href="css/styles.css">
-  <title><?php echo $navigation[$current] ?></title>
+  <title><?=$navigation[$current]?></title>
 </head>
