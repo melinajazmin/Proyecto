@@ -1,6 +1,6 @@
 <?php
   require_once("partials/navigation.php");
-  $current = basename(__FILE__);
+  $current = basename(__FILE__);  
 ?>
 <!DOCTYPE html>
 <html>
