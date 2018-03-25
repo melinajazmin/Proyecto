@@ -17,7 +17,7 @@ a{
 }
 
 body{
-    max-width: 2000px;
+    max-width: 1900px;
     margin: 0;
     padding: 0;
     font-size: 10px;
@@ -39,41 +39,19 @@ display: flex;
 .container{
   padding: 0;
   margin: auto;
-	max-width: 2000px;
+	max-width: 1900px;
 	width: 100%;
 
 }
-
-.navbar{
-	width: 100%;
-  background-color:  #8b7e80;
-}
-.btn-menu{
-  margin-left: 15px;
-  padding: 10px;
-  background-color: #18BC9C;
-  font-size: 1.5em;
-}
-
-.n-link{
-  color: #fff;
-  font-weight: bold;
-  font-size: 1.5em;
-	margin-left: 10px;
-}
-.nav-item{
-  margin: 10px 15px;
-}
-
 .card{
   margin: 10px 0px;
   border: none;
 	padding-top: 20px;
 }
 
-.row{
+/* .row{
 padding: 50px 20px 30px 20px;
-}
+} */
 
 .modal .form-control{
 	margin-bottom: 15px;
@@ -89,6 +67,7 @@ padding: 50px 20px 30px 20px;
 .btn-secondary{
 	border: 1px solid #8b7e80;
 	background-color: #8b7e80;
+	color: white;
 }
 
 .btn-outline-success{
@@ -96,37 +75,11 @@ padding: 50px 20px 30px 20px;
 	color: white;
 	border: 1px solid rgb(117, 205, 187);
 }
-.icono{
-  width: 40px;
-  height: 40px;
-  margin: 2px;
-  color: white;
-  background-color: rgb(117, 205, 187);
-  font-size:1.6em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  padding: 5px;
-  border: 1px solid white;
-}
-
-.main-footer{
-	background-color: #8b7e80;
-	border-radius: 15px 15px 0 0;
-	margin-top: 40px;
-	font-size: 1.5em;
-  padding: 0;
-	width: 100%;
-}
-
-.main-footer a{
-	display: block;
-	font-size: 1.5em;
-	color: white;
-	padding: 10px;
-	text-align: center;
-	border-bottom: solid 1px white;
+/* JUMBOTRON */
+.jumbotron{
+	margin-top: 20px;
+	background-size:cover;
+ 	background-image: url(images/"fiesta.jpg");
 }
 
 /* FAQ */
@@ -153,3 +106,59 @@ padding: 50px 20px 30px 20px;
 	margin: 0 auto;
 	padding-top: 0px;
 };
+
+/* MELI */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+
+html, body {
+  height: 100%;
+  background: #FFF;
+  text-align: center;
+  font-size: 1.15em/1 'Open Sans' , sans-serif;
+  color: #FFF;
+}
+.wrapper{
+  background-color: #F5F5F5;
+  height: 100%;
+}
+#header {
+  background-color: #AFDED4;
+}
+.logo {
+  padding: 2%;
+}
+img {
+  max-width: 100%;
+}
+/*
+h2.dark{
+  color: #34495E;
+}
+h2{
+  font: 300 2em/1 'Raleway', sans-serif;
+  color: #FFF;
+  padding: 2%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+} */
+.social {
+  list-style-type: none;
+}
+.social li{
+  display: inline;
+}
+.social i{
+  font-size: 3em;
+  margin: 1%;
+  padding: 5%;
+  color: #FFF;
+}
+.social i:hover{
+  color: #F6931E;
+}
+p{
+  padding: 2%;
+}

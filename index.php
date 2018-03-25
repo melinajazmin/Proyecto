@@ -13,9 +13,8 @@
     <div class="container d-flex flex-wrap big-c">
       <?php require_once("partials/navbar.php"); ?>
 
-
   <!-- JUMBOTRON INFO DE LA WEB -->
-  <div class="jumbotron jumbotron-fluid row">
+  <div class="jumbotron jumbotron-fluid row" style="background-image:"fiesta.jpg"">
       <h1 class="display-3 col-12">Eventr</h1>
       <p class="lead col-12">Es una plataforma que permite tanto a DJ's como a organizadores de eventos encontrarse para generar shows increíbles. Los DJ tendrán la posibilidad de crearse un perfil con todos sus datos, incluyendo las redes sociales con sus sets, fotos y experiencias. Así mismo tendrán un calendario donde podrán poner su disponibilidad para tocar. Los organizadores de eventos, nuestros principales clientes, tendrán la posibilidad de buscar DJ's por nombre, género o disponibilidad de fecha.</p>
 
@@ -58,6 +57,42 @@
         </div>
       </div>
     </section>
+    <!-- EVENTOS -->
+       <section class="vip-products row">
+         <div class="row col-12">
+           <p>Buscar eventos</p>
+         </div>
+         <div class="card col-12 col-md-6 col-lg-4">
+           <img class="card-img-top" src="images/daytimeparty.jpg" alt="daytimeparty">
+           <div class="card-body">
+             <h4 class="card-title">DAYTIME PARTY</h4>
+           </div>
+         </div>
+         <div class="card col-12 col-md-6 col-lg-4">
+           <img class="card-img-top" src="images/festival.jpg" alt="festival">
+           <div class="card-body">
+             <h4 class="card-title">FESTIVAL</h4>
+           </div>
+         </div>
+         <div class="card col-12 col-md-6 col-lg-4">
+           <img class="card-img-top" src="images/nightclub.jpg" alt="nightclub">
+           <div class="card-body">
+             <h4 class="card-title">NIGHT CLUB</h4>
+           </div>
+         </div>
+         <div class="card col-12 col-md-6 col-lg-4">
+           <img class="card-img-top" src="images/privateparty.jpg" alt="privateparty">
+           <div class="card-body">
+             <h4 class="card-title">PRIVATE PARTY</h4>
+           </div>
+         </div>
+         <div class="card col-12 col-md-6 col-lg-4">
+           <img class="card-img-top" src="images/wedding.jpg" alt="wedding">
+           <div class="card-body">
+             <h4 class="card-title">WEDDING</h4>
+           </div>
+         </div>
+       </section>
   </div>
 <?php require_once("partials/footer.php"); ?>
 <?php require_once("partials/script-imports.php"); ?>
