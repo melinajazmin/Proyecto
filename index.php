@@ -10,7 +10,8 @@
 
   <body>
 
-    <div class="container d-flex flex-wrap big-c">
+    <!-- <div class="container d-flex flex-wrap big-c"> -->
+    <!-- <div class="container"> -->
       <?php require_once("partials/navbar.php"); ?>
 
   <!-- JUMBOTRON INFO DE LA WEB -->
@@ -19,7 +20,7 @@
       <p class="lead col-12">Es una plataforma que permite tanto a DJ's como a organizadores de eventos encontrarse para generar shows increíbles. Los DJ tendrán la posibilidad de crearse un perfil con todos sus datos, incluyendo las redes sociales con sus sets, fotos y experiencias. Así mismo tendrán un calendario donde podrán poner su disponibilidad para tocar. Los organizadores de eventos, nuestros principales clientes, tendrán la posibilidad de buscar DJ's por nombre, género o disponibilidad de fecha.</p>
 
     <div class="opciones col-12 d-flex justify-content-around ">
-      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register-modal">Registrate</button>
+      <a type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register-modal">Registrate</a>
       <a type="button" href="quienes.php" class="btn btn-secondary btn-lg">Conocé más</a>
     </div>
   </div>
@@ -94,6 +95,7 @@
          </div>
        </section>
   </div>
+  <!-- </div> -->
 <?php require_once("partials/footer.php"); ?>
 <?php require_once("partials/script-imports.php"); ?>
 

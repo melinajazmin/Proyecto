@@ -23,6 +23,8 @@ body{
     font-size: 10px;
 }
 
+/* CARDS */
+
 .card-img-top{
 width: 100%;
 display: flex;
@@ -39,8 +41,8 @@ display: flex;
 .container{
   padding: 0;
   margin: auto;
-	max-width: 1900px;
-	width: 100%;
+	max-width: 1200px;
+	text-align: center;
 
 }
 .card{
@@ -49,19 +51,19 @@ display: flex;
 	padding-top: 20px;
 }
 
-/* .row{
-padding: 50px 20px 30px 20px;
-} */
-
+/* MODAL */
 .modal .form-control{
 	margin-bottom: 15px;
 	border:none;
 	border-bottom: 1px solid #8b7e80;
 }
+
+/* BOTONES */
+
 .btn-primary{
 	background-color: rgb(117, 205, 187);
-	color: white;
-	border: 1px solid rgb(117, 205, 187);
+	color: white !important;
+	border: 1px solid rgb(117, 205, 187) !important;
 }
 
 .btn-secondary{
@@ -79,7 +81,7 @@ padding: 50px 20px 30px 20px;
 .jumbotron{
 	margin-top: 20px;
 	background-size:cover;
- 	background-image: url(images/"fiesta.jpg");
+ 	background-image: url(../fiesta.jpg);
 }
 
 /* FAQ */
@@ -132,18 +134,9 @@ html, body {
 img {
   max-width: 100%;
 }
-/*
-h2.dark{
-  color: #34495E;
-}
-h2{
-  font: 300 2em/1 'Raleway', sans-serif;
-  color: #FFF;
-  padding: 2%;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-} */
+
+
+/* FOOTER */
 .social {
   list-style-type: none;
 }

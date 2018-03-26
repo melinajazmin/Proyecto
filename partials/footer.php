@@ -17,17 +17,22 @@
     </div>
   </div> -->
   <div class="row" style="background-color: #66D4FF;">
-    <div class="col-12">
-      <ul class="social">
-        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-      </ul>
+    <div class="container d-flex justify-content-between">
+      <div class="col-12">
+        <ul class="social">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+      </div>
     </div>
   </div>
+
   <div class="row" style="background-color: #34495E; border-top: 2px solid #F6931E;">
+    <div class="container">
   <div class="col-12">
   <p>By: Pato, Rodri, Meli</p>
+  </div>
   </div>
   </div>
 
