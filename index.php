@@ -1,6 +1,7 @@
 <?php
   require_once("partials/navigation.php");
   $current = basename(__FILE__);
+  $title="Eventr";
 ?>
 
 <!DOCTYPE html>
@@ -15,7 +16,7 @@
       <?php require_once("partials/navbar.php"); ?>
 
   <!-- JUMBOTRON INFO DE LA WEB -->
-  <div class="jumbotron jumbotron-fluid row" style="background-image:"fiesta.jpg"">
+  <div class="jumbotron jumbotron-fluid row" style="background-image:'images/fiesta.jpg'">
       <h1 class="display-3 col-12">Eventr</h1>
       <p class="lead col-12">Es una plataforma que permite tanto a DJ's como a organizadores de eventos encontrarse para generar shows increíbles. Los DJ tendrán la posibilidad de crearse un perfil con todos sus datos, incluyendo las redes sociales con sus sets, fotos y experiencias. Así mismo tendrán un calendario donde podrán poner su disponibilidad para tocar. Los organizadores de eventos, nuestros principales clientes, tendrán la posibilidad de buscar DJ's por nombre, género o disponibilidad de fecha.</p>
 

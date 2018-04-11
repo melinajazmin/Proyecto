@@ -155,3 +155,58 @@ img {
 p{
   padding: 2%;
 }
+
+
+/*Agregador por Rodrigo para PERFIL.PHP*/
+
+.error-message{
+  font-style: italic;
+  color: #d7011c;
+  font-size: 0.8em;
+}
+
+.pag-perfil{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.row{
+	width: 100vw;
+	margin: -1;
+	display: flex;
+}
+.justify-content-center{
+	justify-content: center;
+}
+
+.avatar{
+  width: 300px;
+  height: 300px;
+	margin-bottom: 15px;
+	border-radius: 50%;
+	border: 1px, solid #464e47;
+	overflow: hidden;
+}
+
+.form-perfil{
+	width: 90vw;
+	padding: 15px;
+	display: grid;
+	grid-gap: 15px;
+	grid-row-gap:15px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-template-rows: minmax(50px, 100px);
+}
+
+.form-control{
+	border: solid 1px black;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	column-span: 1;
+	margin: 15px;
+	padding: 15px;
+	min-width: 200px;
+	min-height: 100px;
+}
